@@ -1,0 +1,33 @@
+# TODO: Update Copyright Year from 2025 to 2026 in Footer
+
+- [x] Edit travel.html
+- [x] Edit training.html
+- [x] Edit telecommunication.html
+- [x] Edit Strategy_Development.html
+- [x] Edit startup-failure-blog.html
+- [ ] Edit service-sector.html
+- [x] Edit Sales_Training.html
+- [ ] Edit Root_Cause_Analysis.html
+- [ ] Edit retail.html
+- [ ] Edit personal-branding.html
+- [ ] Edit people.html
+- [ ] Edit overview.html
+- [ ] Edit newsroom.html
+- [ ] Edit new-age-insights-blog.html
+- [ ] Edit medical.html
+- [ ] Edit media.html
+- [ ] Edit Market_Research.html
+- [ ] Edit Marketing_Consultation.html
+- [ ] Edit manufacturing.html
+- [ ] Edit louder-effective-communication.html
+- [ ] Edit leaders.html
+- [ ] Edit fmcg.html
+- [ ] Edit Digital_Technology_and_Data.html
+- [ ] Edit consultation.html
+- [ ] Edit commitments.html
+- [ ] Edit chatgpt-blog.html
+- [ ] Edit Business_Development.html
+- [ ] Edit Brand_Development.html
+- [ ] Edit automation.html
+- [ ] Edit 360-degree-marketing.html
+- [ ] Edit 360-degree-branding.html
