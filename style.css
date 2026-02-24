@@ -383,7 +383,6 @@ body {
 
     .hero-content {
         text-align: center;
-        padding-top: 6rem;
     }
 
     .hero-title {
@@ -410,7 +409,7 @@ body {
     width: 100%;
     max-width: 100vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     overflow: hidden;
     padding-top: 0;
     color: var(--white);
@@ -456,8 +455,8 @@ body {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    margin-top: 25vh;
-    /* Push content down to clear logo/navbar */
+    margin-top: 15vh;
+    /* Pushed substantially below true center to clear the logo */
 }
 
 .hero-title-slider {
@@ -467,7 +466,7 @@ body {
 
 .hero-title {
     font-family: 'Sora', sans-serif;
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(3rem, 7vw, 5.5rem);
     /* Massive */
     font-weight: 800;
     line-height: 1.1;
@@ -497,9 +496,9 @@ body {
 }
 
 .hero-subtitle {
-    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-size: clamp(1.2rem, 2vw, 1.75rem);
     color: rgba(255, 255, 255, 0.9);
-    max-width: 600px;
+    max-width: 650px;
     margin-bottom: 3rem;
     line-height: 1.6;
     font-weight: 500;
@@ -602,6 +601,11 @@ section {
     /* Delay for title */
 }
 
+/* Specifically target subpage headers to be slightly smaller */
+.page-content .section-title {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+}
+
 /* Page Body Text */
 .page-body {
     opacity: 0;
@@ -675,6 +679,12 @@ section {
     font-size: 1.05rem;
     line-height: 1.8;
     margin-bottom: 1rem;
+}
+
+/* Specifically target subpage hero text to be slightly smaller */
+.page-content .about-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .about-image-wrapper {

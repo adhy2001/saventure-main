@@ -47,25 +47,29 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top custom-pill-nav">
-        <div class="container pill-container">
+        <div class="container pill-container d-flex justify-content-between align-items-center">
             <!-- Mobile Toggle -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Mobile Logo -->
-            <a class="navbar-brand d-flex d-lg-none align-items-center mx-auto gap-2" href="index.html">
-                <img src="images/Logo1.png" alt="Saventure Logo" class="nav-logo-mob"
-                    style="height: 30px; filter: brightness(0) invert(1);">
-                <img src="images/Logo name.png" alt="Saventure Name" class="nav-name-mob"
-                    style="height: 20px; filter: brightness(0) invert(1);">
+                        <!-- Logo (Left aligned for desktop and mobile) -->
+            <a class="navbar-brand d-flex align-items-center gap-2 m-0" href="index.html">
+                <!-- Desktop Logo -->
+                <div class="logo-swap-container d-none d-lg-block">
+                    <img src="images/Logo1.png" alt="Saventure Logo" class="logo-default" style="height: 38px;">
+                    <img src="images/Logo name.png" alt="Saventure Name" class="logo-on-hover" style="height: 24px;">
+                </div>
+                <!-- Mobile Logo -->
+                <div class="d-lg-none d-flex align-items-center gap-2">
+                    <img src="images/Logo1.png" alt="Saventure Logo" class="nav-logo-mob" style="height: 30px; filter: brightness(0) invert(1);">
+                    <img src="images/Logo name.png" alt="Saventure Name" class="nav-name-mob" style="height: 20px; filter: brightness(0) invert(1);">
+                </div>
             </a>
 
-            <div class="collapse navbar-collapse navbar-3col justify-content-between align-items-center w-100"
-                id="navbarNav">
-                <!-- Left Links (3) -->
-                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end" style="flex: 1;">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 align-items-center">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html#about" id="aboutDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">About</a>
@@ -112,20 +116,7 @@
                             <li><a class="dropdown-item" href="Brand_Development.html">Brand Development</a></li>
                         </ul>
                     </li>
-                </ul>
-
-                <!-- Center: Logo hover swap -->
-                <a class="navbar-center-logo d-none d-lg-flex align-items-center justify-content-center text-decoration-none"
-                    href="index.html">
-                    <div class="logo-swap-container">
-                        <img src="images/Logo1.png" alt="Saventure Logo" class="logo-default" style="height: 38px;">
-                        <img src="images/Logo name.png" alt="Saventure Name" class="logo-on-hover"
-                            style="height: 24px;">
-                    </div>
-                </a>
-
-                <!-- Right Links (3) -->
-                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-start" style="flex: 1;">
+                
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html#core-values" id="coreValuesDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Core Values</a>
